@@ -1,0 +1,11 @@
+$def with (names,form)  
+<h1>nicknames</h1>
+	<form action="../nickname" method="post">  
+	$:form.render()  
+	</form> 
+<ul>  
+    $for name in names:  
+        <li>  
+            <a href="view/$name.id">$name.name</a>
+        </li>  
+</ul>  

@@ -1,0 +1,22 @@
+$def with(table,form)
+<h1>Register</h1>
+<form method="POST">
+    $:form.render()
+</form>
+<table>
+    <tr>
+        <th>id</th>
+        <th>address</th>
+        <th>usedtimes</th>
+        <th>checked</th>
+    </tr>
+$for ip in table:
+    <tr>
+        <td>$ip.id</td>
+        <td>$ip.address</td>
+        <td>$ip.usedtimes
+        </td>
+        <td>$ip.checked
+        </td>
+    </tr>    
+</table> 

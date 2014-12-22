@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset>
+<!-- urlset，urlset用来标记整个文档的开头，最少出现1次 最多出现1次 -->
+	<url>
+	<!-- url，url标记每条信息的开始和结束，最少出现0次 最多出现50000次 -->
+		<loc>http://hushixiaodao.sinaapp.com/</loc>
+		<!-- loc，该条数据的存放地址，最少出现1次 最多出现1次，类型为URL地址，最小长度1个字符	最大长度256个字符	必须符合正则表达式(http://)(.+) -->
+		<lastmod>2014-08-11</lastmod>
+		<!-- lastmod，指该条数据的最新一次更新时间，最少出现0次 最多出现1次，类型为日期或日期时间，格式为YYYY-MM-DD的日期或者格式为YYYY-MM-DDThh:mm:ss的日期时间（请注意日期与时间之间以“T”分隔） -->
+		<changefreq>always</changefreq>
+		<!-- changefreq，指该条数据的更新频率，最少出现0次 最多出现1次，类型为字符串，有效值为：always、hourly、daily、weekly、monthly、yearly、never -->
+		<priority>1.0</priority>
+		<!-- priority，用来指定此链接相对于其他链接的优先权比值，此值定于0.0-1.0之间，最少出现0次 最多出现1次，类型为小数，最小值为（包含）0.0	最大值为（包含）1.0 -->
+		<data>
+		<!-- data，，最少出现1次 最多出现1次 -->
+			<display>
+			<!-- display，，最少出现1次 最多出现1次 -->
+				<name>呼和浩特查违章</name>
+				<!-- name，支持查询的名称，最少出现1次 最多出现1次，类型为字符串 -->
+				<alias>呼市查违章</alias>
+				<!-- alias，查询名称的别名，最少出现0次 最多出现1次，类型为字符串 -->
+				<description>不要发动机号，不要车架号，一个车牌号就搞定哦~</description>
+				<!-- description，应用简介，最少出现1次 最多出现1次，类型为字符串 -->
+				<city>呼和浩特</city>
+				<!-- city，支持查询的城市，最少出现1次 最多出现1次，类型为字符串 -->
+				<function>违章查询</function>
+				<!-- function，在首页的可以使用的功能，最少出现1次 最多出现1次，类型为字符串 -->
+				<subFunction>违章查询</subFunction>
+				<!-- subFunction，不在首页的功能，最少出现1次 最多出现1次，类型为字符串 -->
+				<imageUrl>http://hushixiaodao.sinaapp.com/static/%E5%B0%8F%E9%81%93%E6%B6%88%E6%81%AF.png</imageUrl>
+				<!-- imageUrl，应用代表性的图片，最少出现1次 最多出现1次，类型为字符串 -->
+                <url>http://hushixiaodao.sinaapp.com/jiankong_search</url>
+				<!-- url，应用的url地址，最少出现1次 最多出现1次，类型为字符串 -->
+				<category>生活工具</category>
+				<!-- category，一级目录，最少出现1次 最多出现1次，类型为字符串 -->
+				<subcate>查违章</subcate>
+				<!-- subcate，二级目录，最少出现1次 最多出现1次，类型为字符串 -->
+			</display>
+		</data>
+	</url>
+</urlset>

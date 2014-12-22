@@ -1,0 +1,13 @@
+$def with (items,form)  
+<h1>items</h1>
+	<form action="item" method="post">  
+	$:form.render()  
+	</form> 
+	<ul>
+	$for item in items:  
+		<li>  
+		$item.name
+		<a href="nickname/$item.itemid" class="ajax">nick</a>  
+		<a href="event/$item.itemid" class="ajax">events</a>  
+		</li>  
+	</ul>

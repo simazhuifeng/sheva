@@ -1,0 +1,22 @@
+---
+name: hushixiaodao
+version: 1
+libraries:
+- name: lxml
+  version: "2.3.4"
+- name: PIL
+  version: "1.1.7"
+cron:
+- description: airdata
+  url: /air/airdata
+  schedule: 20,55 * * * *
+  timezone: Beijing
+- description: jiankong_fetch
+  url: /jiankong_fetch
+  schedule: every 24 hour
+  timezone: Beijing
+- description: backupairdata
+  url: /air/backupairdata
+  schedule: every 24 hour
+  timezone: Beijing
+...

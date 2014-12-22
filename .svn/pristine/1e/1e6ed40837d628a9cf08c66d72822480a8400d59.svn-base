@@ -1,0 +1,24 @@
+公安厅反馈查询编码 20130401-7459-3633
+
+蒙AP2012 6821376
+
+F332869
+
+Gnahnuy
+
+2013/4/4 查违章第一次上线：第一次发信息的用户，执行getlastconversation时出错...
+2013/4/12 查违章可以记录发动机号，下次查不再需要输入这项
+
+
+fixed:空气质量查询，添加观测站到用户本人的距离，有方位更好哦
+
+TODO:空气质量直接取AQI指数
+
+INSERT INTO t_air_data_backup
+SELECT * FROM t_air_data WHERE `obtime` < '2013-06-14'
+
+delete from t_air_data WHERE `obtime` < '2013-06-14'
+
+公交 
+http://wapmap.baidu.com/bus/line?bd_page_type=1&city_code=321&pid=4627b17d2b164920246e98fa
+http://wapmap.baidu.com/around?bd_page_type=1&entry=&from=&layout=2&pu=sz%40224_224&ssid=&uid=&city_code=321&city_name=%E5%91%BC%E5%92%8C%E6%B5%A9%E7%89%B9%E5%B8%82&origin=home&log1=home&log2=btn_search&start=&key=1%E8%B7%AF

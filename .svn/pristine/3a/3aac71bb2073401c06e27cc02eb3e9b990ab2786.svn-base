@@ -1,0 +1,214 @@
+$def with (page)  
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html class="no-js lt_ie9"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt_ie10 ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="ClearType" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="baidu_union_verify" content="91aec6d9c79af62ed4c2c41d0d92c557"><script type="text/javascript" name="baidu-tc-cerfication" src="http://apps.bdimg.com/cloudaapi/lightapp.js#ce525fe638ffbc10b299e4cfdacb65c1"></script>
+<script type="text/javascript">window.bd && bd._qdc && bd._qdc.init({app_id: 'e8826b815527812fdd5b9864'});</script>
+		
+    $if page.has_key('title'):
+        <title>$page.title</title>
+    $else:
+        <title>呼市小道消息</title>
+    </head>  
+	<link type="text/css" rel="stylesheet" href="/static/main.css" media="screen">
+    <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+
+        <!-- Modernizr -->
+        <script src="/static/modernizr-2.7.1.min.js"></script>
+    <body>  
+     <div id="top" class="page" role="document">
+            <header class="page-header" role="banner">
+
+                <div class="header-container cf">
+                    <h1 class="header-title">呼市小道消息</h1>
+                </div>
+            </header>
+
+            <main class="page-content" role="main">
+                <div class="wrapper">
+                    <section id="typography" class="content-block">
+        $:page  
+                    </section>
+                    
+        <hr class="symbol">
+                </div>
+            </main>
+        </div>
+        
+        
+    <script type="text/javascript">
+    var tid = "";
+    (function(){
+
+    function onBridgeReady() {
+        var appId  = '',
+            $if page.has_key('imgUrl'):
+            	imgUrl  = "$page.imgUrl",
+            $else:
+            	imgUrl  = "http://hushixiaodao.sinaapp.com/article",
+            	
+            $if page.has_key('link'):
+            	link  = "$page.link",
+            $else:
+            	link  = "http://hushixiaodao.sinaapp.com/article",
+                
+            $if page.has_key('title'):
+                title  = htmlDecode("$page.title"),
+            $else:
+                title  = htmlDecode("呼市小道消息"),
+            desc   = htmlDecode("查看详情"),
+            fakeid = "";
+            desc   = desc || link;  
+
+            //WeixinJSBridge.call("hideOptionMenu");  
+
+        // 发送给好友; 
+        WeixinJSBridge.on('menu:share:appmessage', function(argv){
+                    WeixinJSBridge.invoke('sendAppMessage',{
+                                          "appid"      : appId,
+                                          "img_url"    : imgUrl,
+                                          "img_width"  : "640",
+                                          "img_height" : "640",
+                                          "link"       : share_scene(link, 1),
+                                          "desc"       : desc,
+                                          "title"      : title
+                    }, function(res) {
+                    	report(link, fakeid, 1);
+                    });
+        });
+
+                // 分享到朋友圈;
+        WeixinJSBridge.on('menu:share:timeline', function(argv){
+                    WeixinJSBridge.invoke('shareTimeline',{
+                                          "img_url"    : imgUrl,
+                                          "img_width"  : "640",
+                                          "img_height" : "640",
+                                          "link"       : share_scene(link, 2),
+                                          "desc"       : desc,
+                                          "title"      : title
+                    }, function(res) {
+                    });
+        
+        });
+
+                // 分享到微博;
+        var weiboContent = '';
+        WeixinJSBridge.on('menu:share:weibo', function(argv){
+        
+                    WeixinJSBridge.invoke('shareWeibo',{
+                                          "content" : title + share_scene(link, 3),
+                                          "url"     : share_scene(link, 3) 
+                                          }, function(res) {report(link, fakeid, 3);
+                                          });
+        });
+
+                // 分享到Facebook
+        WeixinJSBridge.on('menu:share:facebook', function(argv){
+            report(link, fakeid, 4);
+            WeixinJSBridge.invoke('shareFB',{
+                  "img_url"    : imgUrl,
+                  "img_width"  : "640",
+                  "img_height" : "640",
+                  "link"       : share_scene(link, 4),
+                  "desc"       : desc,
+                  "title"      : title
+            }, function(res) {} );
+        });
+
+                // 新的接口
+        WeixinJSBridge.on('menu:general:share', function(argv){
+            var scene = 0;
+            switch(argv.shareTo){
+                case 'friend'  : scene = 1; break;
+                case 'timeline': scene = 2; break;
+                case 'weibo'   : scene = 3; break;
+            }
+                argv.generalShare({
+                                    "appid"      : appId,
+                                    "img_url"    : imgUrl,
+                                    "img_width"  : "640",
+                                    "img_height" : "640",
+                                    "link"       : share_scene(link,scene),
+                                    "desc"       : desc,
+                                    "title"      : title
+                }, function(res){report(link, fakeid, scene);
+                });
+        });
+		
+        // get network type
+		var nettype_map = {
+			"network_type:fail" : "fail",
+			"network_type:edge": "2g",
+			"network_type:wwan": "3g",
+			"network_type:wifi": "wifi"
+		};
+		if (typeof WeixinJSBridge != "undefined" && WeixinJSBridge.invoke){
+			WeixinJSBridge.invoke('getNetworkType',{}, function(res) {
+				networkType = nettype_map[res.err_msg];
+				initpicReport();
+			});
+		}        }
+
+    if (typeof WeixinJSBridge == "undefined"){
+        if( document.addEventListener ){
+            document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+        }else if (document.attachEvent){
+            document.attachEvent('WeixinJSBridgeReady', onBridgeReady); 
+            document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+        }
+    }else{
+        onBridgeReady();
+    }
+    
+    })();
+    function htmlDecode(str){
+        return str
+              .replace(/&#39;/g, '\'')
+              .replace(/<br\s*(\/)?\s*>/g, '\n')
+              .replace(/&nbsp;/g, ' ')
+              .replace(/&lt;/g, '<')
+              .replace(/&gt;/g, '>')
+              .replace(/&quot;/g, '"')
+              .replace(/&amp;/g, '&');
+    }
+    function share_scene(link, scene_type){
+        var extargs = "";
+        if (tid != ""){//gdt traceid
+            extargs = "tid=" + tid + "&aid=" + 54;//share must be 54
+        }
+        var queryStr = link.split('?')[1] || '';
+            queryStr = queryStr.split('#')[0];
+        if( queryStr == '' ){
+            return link;
+        }
+        
+        var queryarr = [queryStr, 'scene='+scene_type];
+        (extargs != "") && (queryarr.push(extargs));
+        queryStr = queryarr.join('&');
+        return link.split('?')[0] + '?' + queryStr + '#' + (link.split('#')[1]||'');
+    }
+    function report(link, fakeid, action_type){
+//     	alert(link);
+//        	$$('.wrapper').append('<b>aa</b>');
+//        	$$('.wrapper').append('<img src=\'/report\' />');
+    }
+    function viewProfile(){
+        if (typeof WeixinJSBridge != "undefined" && WeixinJSBridge.invoke){
+            WeixinJSBridge.invoke('profile',{
+                'username':'gh_8b3752e94cfe',
+                'scene':'57'
+            });
+        }
+    }
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F33e0a85b73e79c1b059b7601df646c4f' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+    </body>  
+</html>  

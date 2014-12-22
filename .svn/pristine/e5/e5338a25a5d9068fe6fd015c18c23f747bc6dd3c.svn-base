@@ -1,0 +1,9 @@
+$def with(datas)
+<h1>data</h1>
+<table>
+$for data in datas:
+    <tr>
+        <td>$data.id</td>
+        <td>$data.weizhang</td>
+    </tr> 
+</table> 

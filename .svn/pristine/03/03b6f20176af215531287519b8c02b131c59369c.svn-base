@@ -1,0 +1,15 @@
+<h1>违章查询</h1>
+<form action="jiankong">
+    <fieldset>        
+        <p>
+            <label>输入车牌号<br>
+                <input type="text" name="chepai" placeholder="蒙AXD224">
+            </label>
+        </p>
+        
+        
+        <p>
+            <input type="submit" class="button button-primary">
+        </p>
+    </fieldset>
+</form>

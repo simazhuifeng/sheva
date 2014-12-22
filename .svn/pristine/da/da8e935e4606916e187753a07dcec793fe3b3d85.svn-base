@@ -1,0 +1,11 @@
+$def with(datas)
+<h1>违章信息</h1>
+$if not datas:
+	<p>暂无被抓拍的记录哦~</p>
+$else:
+    <table>
+    $for data in datas:
+        <tr>
+            <td>$data.weizhang</td>
+        </tr>
+    </table> 

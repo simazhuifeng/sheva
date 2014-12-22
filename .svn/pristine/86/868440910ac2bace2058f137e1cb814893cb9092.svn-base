@@ -1,0 +1,8 @@
+$def with (dialogs)  
+<h1>dialogs</h1>  
+<ul>  
+	$for dialog in dialogs:  
+        <li>  
+		$dialog.content
+        </li>  
+</ul>  

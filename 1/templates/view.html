@@ -1,0 +1,10 @@
+$def with (post) 
+$var title: $post.title
+$var link: http://hushixiaodao.sinaapp.com/article/view/$post.id
+$var imgUrl: http://hushixiaodao.sinaapp.com/static/$post.cover
+<h1>$post.title</h1>  
+$post.posted_on<br />
+
+            <!--<img src="http://hushixiaodao.sinaapp.com/static/$post.cover">-->
+$:post.html
+            <img src="http://hushixiaodao.sinaapp.com/static/hushixiaodao_tail_image.v1.jpg">

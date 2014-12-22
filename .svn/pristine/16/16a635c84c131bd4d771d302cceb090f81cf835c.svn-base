@@ -1,0 +1,36 @@
+$def with(datas,pages,form)
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<h1>2014年内蒙古考试录用公务员职位表</h1>
+<i>仅供参考，以官方公布为准</i>
+	<form method="POST">
+	    $:form.render()
+	</form>
+	<table>
+		<thead>
+			<tr class="tableizer-firstrow">
+				<th>招录机关单位名称</th>
+				<th>职位名称</th>
+				<th>招录人数</th>
+				<th>学历</th>
+				<th>学位</th>
+				<th>专业</th>	
+				<th>其他条件</th>
+			</tr>
+		</thead>
+		<tbody>
+		$for data in datas:
+			<tr dir="ltr">
+				<td dir="ltr" class="s2">$data.danwei</td>
+				<td dir="ltr" class="s3">$data.gangwei</td>
+				<td dir="ltr" class="s3">$data.renshu</td>
+				<td dir="ltr" class="s3">$data.xueli</td>
+				<td dir="ltr" class="s3">$data.xuewei</td>
+				<td dir="ltr" class="s3">$data.zhuanye</td>
+				<td dir="ltr" class="s3">$data.qita</td>
+			</tr>
+			
+		</tbody>
+	</table>
+	$for page in range(pages):
+	<div style="display: inline; padding-left: 5px;"><a href="?page=$page">$page</a></div>
+

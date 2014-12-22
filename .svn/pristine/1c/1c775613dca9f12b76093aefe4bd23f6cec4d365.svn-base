@@ -1,0 +1,37 @@
+$def with (event,form)  
+<h1>events</h1>
+	<form action="../event" method="post">  
+	$:form.render()  
+	</form> 
+<ul>   
+	$if event:
+        <li>  
+            $event.content
+        </li>  
+</ul> 
+<ul id="articles">
+
+</ul>
+<script type="text/javascript">
+	var baseUrl = "http://hushixiaodao.sinaapp.com";
+	$$(function(){
+		$$.getJSON('/article/list',function(data){
+			$$.each(data,function(index,article){
+				var a = $$("<a>").text(article.title).attr('href','/article/view/' + article.id)
+				.attr('cover',article.cover).click(function(){
+					var articleStr = $$(this).text() + '|' +
+						'' + '|' +
+						baseUrl + $$(this).attr('href') + '|' +
+						baseUrl + '/static/' + $$(this).attr('cover');
+					$$('#content').val() == "" ?
+							$$('#content').val("article$$$$" + articleStr) : 
+							$$('#content').val($$('#content').val() + "$$$$" + articleStr)
+					return false;
+				});
+				var li = $$('<li>');
+				a.appendTo(li);
+				li.appendTo('#articles');
+			});
+		})
+	});
+</script>

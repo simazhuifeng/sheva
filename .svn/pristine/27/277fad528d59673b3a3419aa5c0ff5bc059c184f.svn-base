@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>公共自行车坐标收集器【呼市小道消息】</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<style type="text/css">
+		#allmap {width: 100%;height: 500px;overflow: hidden;margin:0;}
+	</style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=729855bc6f894eaafbcc8792f74e2cc4"></script>
+<script type="text/javascript" src="http://developer.baidu.com/map/jsdemo/demo/convertor.js"></script>
+
+</head>
+
+
+<body onload="loadDemo()">
+
+
+<h3>公共自行车坐标收集器</h3>
+
+
+<span class="info">
+
+  <p id="status">你的终端<strong>不</strong> 支持采集行为.</p>
+
+</span>
+
+
+<h3>你的当前位置</h3>
+
+<table border="1" style="display:none;">
+
+          <tr>
+
+            <th width="40" scope="col"><h5 align="left">Lat.</h5></th>
+
+             <td width="114" id="latitude">?</td>
+
+          </tr>
+
+          <tr>
+
+            <td><h5>Long.</h5></td>
+
+            <td id="longitude">?</td>
+
+          </tr>
+
+          <tr>
+
+            <td><h5>Time</h5></td>
+
+            <td id="longitude2">11:00:00 a.m.</td>
+
+          </tr>
+
+</table>
+
+
+
+<script type="text/javascript">
+
+    function loadDemo() {
+
+        if(navigator.geolocation) {
+
+            document.getElementById("status").innerHTML = "你的终端支持采集行为";
+
+            navigator.geolocation.getCurrentPosition(updateLocation);
+
+        }
+        
+
+
+    }
+
+function updateLocation(position) {
+
+    var latitude = position.coords.latitude;
+
+    var longitude = position.coords.longitude;
+
+
+    if (!latitude || !longitude) {
+
+        document.getElementById("status").innerHTML = "HTML5 Geolocation is supported in your browser, but location is currently not available.";
+
+        return;
+
+    }
+
+
+    document.getElementById("latitude").innerHTML = latitude;
+
+    document.getElementById("longitude").innerHTML = longitude;
+    
+	var point = new BMap.Point(longitude,latitude);
+    BMap.Convertor.translate(point,0,function(_point){
+    	document.getElementById("static-map-img").src = "http://api.map.baidu.com/staticimage?width=400&height=300&center=" 
+    	+ _point.lng + ',' + _point.lat + "&zoom=16&markers=" 
+    	+ _point.lng + ',' + _point.lat + "&markerStyles=l,0";
+        var gc = new BMap.Geocoder(); 
+        gc.getLocation(_point, function(rs){
+            var addComp = rs.addressComponents;
+            document.getElementById('address-text').innerHTML = (addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+        }); 
+    }); 
+
+
+}
+</script>
+<span id="address-text"></span><br />
+<img id="static-map-img" src="" alt="static map">
+<div>来自 微信公众号【呼市小道消息】 </div>
+</body>
+</html>

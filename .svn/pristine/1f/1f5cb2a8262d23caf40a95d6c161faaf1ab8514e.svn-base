@@ -1,0 +1,26 @@
+$def with(lon,lat,stationstr,markerStyles,stations)
+$var title: '查询离你最近的公共自行车站'
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<h1>你周边的公共自行车站</h1>
+
+<script type="text/javascript">
+
+</script>
+<img id="static-map-img" 
+src="http://api.map.baidu.com/staticimage?width=400&height=300&center=$lon,$lat&zoom=14&labels=$lon,$lat&markers=$stationstr&markerStyles=$markerStyles&labelStyles=你在这儿,1,14,0xffffff,0x000fff,1" alt="static map" />
+<table class="table-border-rows">
+		<tr>
+			<th>#</th>
+			<th>站名</th>
+			<th>位置</td>
+		</tr>
+	$for station in stations:
+		<tr>
+			<td>$loop.index</td>
+			<td>$station['station'].name (距你$station['distance']公里)</td>
+			<td>$station['station'].address
+		$if station['station'].panorama != '':
+			<a href="$station['station'].panorama">[实景]</a>
+		</td>
+		</tr>
+</table>

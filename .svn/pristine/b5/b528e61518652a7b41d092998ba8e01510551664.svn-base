@@ -1,0 +1,1145 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:x="urn:schemas-microsoft-com:office:excel"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name=ProgId content=Excel.Sheet>
+<meta name=Generator content="Microsoft Excel 14">
+<link rel=File-List href="2013092812103795762.files/filelist.xml">
+<style id="2013092812103795762_30946_Styles">
+<!--table
+	{mso-displayed-decimal-separator:"\.";
+	mso-displayed-thousand-separator:"\,";}
+.font530946
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font630946
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font730946
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font830946
+	{color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.xl1530946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6330946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl6430946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6530946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6630946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6730946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6830946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl6930946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7030946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7130946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl7230946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7330946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7430946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl7530946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	mso-text-control:shrinktofit;}
+.xl7630946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	mso-text-control:shrinktofit;}
+.xl7730946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	mso-text-control:shrinktofit;}
+.xl7830946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	mso-text-control:shrinktofit;}
+.xl7930946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:left;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;
+	mso-text-control:shrinktofit;}
+.xl8030946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:22.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:黑体, monospace;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8130946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8230946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8330946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:none;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8430946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:general;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:none;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8530946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:windowtext;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl8630946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8730946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:12.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8830946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:nowrap;}
+.xl8930946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl9030946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:.5pt solid windowtext;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl9130946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+.xl9230946
+	{padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	color:black;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-number-format:General;
+	text-align:center;
+	vertical-align:middle;
+	border-top:none;
+	border-right:.5pt solid windowtext;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
+	mso-background-source:auto;
+	mso-pattern:auto;
+	white-space:normal;}
+ruby
+	{ruby-align:left;}
+rt
+	{color:windowtext;
+	font-size:9.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-generic-font-family:auto;
+	mso-font-charset:134;
+	mso-char-type:none;}
+-->
+</style>
+</head>
+
+<body>
+<!--[if !excel]>　　<![endif]-->
+<!--下列信息由 Microsoft Excel 的发布为网页向导生成。-->
+<!--如果同一条目从 Excel 中重新发布，则所有位于 DIV 标记之间的信息均将被替换。-->
+<!----------------------------->
+<!--“从 EXCEL 发布网页”向导开始-->
+<!----------------------------->
+
+<div id="2013092812103795762_30946" align=center x:publishsource="Excel">
+
+<table border=0 cellpadding=0 cellspacing=0 width=1005 style='border-collapse:
+ collapse;table-layout:fixed;width:755pt'>
+ <col width=98 style='mso-width-source:userset;mso-width-alt:3136;width:74pt'>
+ <col width=30 span=2 style='mso-width-source:userset;mso-width-alt:960;
+ width:23pt'>
+ <col class=xl6430946 width=172 style='mso-width-source:userset;mso-width-alt:
+ 5504;width:129pt'>
+ <col class=xl6330946 width=44 style='mso-width-source:userset;mso-width-alt:
+ 1408;width:33pt'>
+ <col width=55 style='mso-width-source:userset;mso-width-alt:1760;width:41pt'>
+ <col width=79 style='mso-width-source:userset;mso-width-alt:2528;width:59pt'>
+ <col width=152 style='mso-width-source:userset;mso-width-alt:4864;width:114pt'>
+ <col width=167 style='mso-width-source:userset;mso-width-alt:5344;width:125pt'>
+ <col width=178 style='mso-width-source:userset;mso-width-alt:5696;width:134pt'>
+ <tr height=48 style='mso-height-source:userset;height:36.0pt'>
+  <td colspan=10 height=48 class=xl8030946 width=1005 style='height:36.0pt;
+  width:755pt'>2013年呼和浩特民族学院公开招聘工作人员岗位需求表</td>
+ </tr>
+ <tr height=37 style='mso-height-source:userset;height:27.75pt'>
+  <td rowspan=4 height=93 class=xl8130946 width=98 style='border-bottom:.5pt solid black;
+  height:69.75pt;border-top:none;width:74pt'>部门名称（厅局）</td>
+  <td rowspan=4 class=xl8130946 width=30 style='border-bottom:.5pt solid black;
+  border-top:none;width:23pt'>单位名称</td>
+  <td rowspan=4 class=xl8130946 width=30 style='border-bottom:.5pt solid black;
+  border-top:none;width:23pt'>经费来源</td>
+  <td rowspan=4 class=xl6930946 width=172 style='border-bottom:.5pt solid black;
+  border-top:none;width:129pt'>招聘岗位</td>
+  <td rowspan=4 class=xl6930946 width=44 style='border-bottom:.5pt solid black;
+  border-top:none;width:33pt'>招聘人数</td>
+  <td colspan=4 class=xl8230946 style='border-right:.5pt solid black;
+  border-left:none'>岗位招聘具体条件</td>
+  <td rowspan=4 class=xl8730946 style='border-bottom:.5pt solid black;
+  border-top:none'>备<span style='mso-spacerun:yes'>&nbsp; </span>注</td>
+ </tr>
+ <tr height=25 style='mso-height-source:userset;height:18.75pt'>
+  <td rowspan=3 height=56 class=xl8530946 width=55 style='height:42.0pt;
+  border-top:none;width:41pt'>学历</td>
+  <td rowspan=3 class=xl8630946 style='border-top:none'>学位</td>
+  <td rowspan=3 class=xl6930946 width=152 style='border-bottom:.5pt solid black;
+  border-top:none;width:114pt'>专<span style='mso-spacerun:yes'>&nbsp;&nbsp;
+  </span>业</td>
+  <td rowspan=3 class=xl6930946 width=167 style='border-bottom:.5pt solid black;
+  border-top:none;width:125pt'>其他条件</td>
+ </tr>
+ <tr height=18 style='mso-height-source:userset;height:13.5pt'>
+ </tr>
+ <tr height=13 style='mso-height-source:userset;height:9.75pt'>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td rowspan=14 height=448 class=xl9030946 width=98 style='border-bottom:.5pt solid black;
+  height:336.0pt;border-top:none;width:74pt'>　</td>
+  <td rowspan=14 class=xl9030946 width=30 style='border-bottom:.5pt solid black;
+  border-top:none;width:23pt'>呼和浩特民族学院</td>
+  <td rowspan=14 class=xl9030946 width=30 style='border-bottom:.5pt solid black;
+  border-top:none;width:23pt'>全额拨款</td>
+  <td class=xl6530946 width=172 style='border-top:none;border-left:none;
+  width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td rowspan=29 class=xl7230946 width=55 style='border-bottom:.5pt solid black;
+  border-top:none;width:41pt'>研究生</td>
+  <td rowspan=19 class=xl7230946 width=79 style='border-bottom:.5pt solid black;
+  border-top:none;width:59pt'>硕士</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>行政管理</td>
+  <td rowspan=27 class=xl7730946 width=167 style='border-bottom:.5pt solid black;
+  border-top:none;width:125pt'>１<font class="font730946">.</font><font
+  class="font830946">年龄4</font><font class="font730946">0周岁及以下；<br>
+    ２.全日制普通高等院校本科起点,</font><font class="font830946">具有研究生学历并取得硕士及以上学位，最高学历所学专业须与本科所学专业相同（即专业背景一致）<br>
+    </font></td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>2</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>法学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>摄影</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>经济学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>长调</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>体育理论</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6730946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>民族工艺</td>
+  <td class=xl6830946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学（蒙古语授课毕业生）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>民族服装</td>
+  <td class=xl6830946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>播音与主持</td>
+  <td class=xl6830946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>环境艺术设计</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>经济学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>工商管理</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>档案管理</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>法学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td rowspan=15 height=480 class=xl8830946 style='height:360.0pt;border-top:
+  none'>　</td>
+  <td rowspan=15 class=xl8930946 width=30 style='border-top:none;width:23pt'>呼和浩特民族学院</td>
+  <td rowspan=15 class=xl8930946 width=30 style='border-top:none;width:23pt'>全额拨款</td>
+  <td class=xl6530946 width=172 style='border-top:none;border-left:none;
+  width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>2</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>计算机维护</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>计算机科学与技术</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>学前教育</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>音乐（键盘）</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>舞蹈</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>教学</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6530946 width=79 style='border-top:none;border-left:none;
+  width:59pt'>博士</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>英语</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td rowspan=9 class=xl7230946 width=79 style='border-bottom:.5pt solid black;
+  border-top:none;width:59pt'>硕士</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>物理</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>化学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>2</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>生物</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>教育、心理学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>广播影视工程</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>法学</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>实验员</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>1</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>计算机应用</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>辅导员（蒙汉兼通）</td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>3</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>专业不限</td>
+  <td rowspan=2 class=xl7530946 width=167 style='border-bottom:.5pt solid black;
+  border-top:none;width:125pt'>１.年龄35周岁及以下；<br>
+    ２.具有研究生学历并取得硕士及以上学位</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <tr height=32 style='mso-height-source:userset;height:24.0pt'>
+  <td height=32 class=xl6530946 width=172 style='height:24.0pt;border-top:none;
+  border-left:none;width:129pt'>辅导员<span style='mso-spacerun:yes'>&nbsp;</span></td>
+  <td class=xl6530946 width=44 style='border-top:none;border-left:none;
+  width:33pt'>2</td>
+  <td class=xl6630946 width=152 style='border-top:none;border-left:none;
+  width:114pt'>专业不限</td>
+  <td class=xl6630946 width=178 style='border-top:none;border-left:none;
+  width:134pt'>　</td>
+ </tr>
+ <![if supportMisalignedColumns]>
+ <tr height=0 style='display:none'>
+  <td width=98 style='width:74pt'></td>
+  <td width=30 style='width:23pt'></td>
+  <td width=30 style='width:23pt'></td>
+  <td width=172 style='width:129pt'></td>
+  <td width=44 style='width:33pt'></td>
+  <td width=55 style='width:41pt'></td>
+  <td width=79 style='width:59pt'></td>
+  <td width=152 style='width:114pt'></td>
+  <td width=167 style='width:125pt'></td>
+  <td width=178 style='width:134pt'></td>
+ </tr>
+ <![endif]>
+</table>
+
+</div>
+
+
+<!----------------------------->
+<!--“从 EXCEL 发布网页”向导结束-->
+<!----------------------------->
+</body>
+
+</html>

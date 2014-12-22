@@ -1,0 +1,43 @@
+$def with (post, form,files)  
+<h1>Edit $form.d.title</h1>  
+<form action="" method="post">  
+    $:form.render()  
+</form>  
+$for file in files: 
+	<label><input type="radio" value="$file" name="_cover"
+	$if post.cover==file:
+		checked
+	> $file</label>
+<div id="epiceditor" style="width:100%;height:400px;">
+</div>
+<h2>Delete post</h2>  
+<form action="/article/delete/$post.id" method="post">  
+    <input type="submit" value="Delete post" />  
+</form>
+<script type="text/javascript" src="/static/epiceditor.min.js"></script>
+<script type="text/javascript">
+	var editor;
+	$$(function(){
+		var opts = {
+			container: 'epiceditor',
+			textarea: 'content',
+			basePath: '../../static',
+			button: {
+				preview: true,
+				fullscreen: true,
+				bar: true
+			},
+			autogrow: {
+				minHeight: 350
+			}
+		}
+		editor = new EpicEditor(opts).load();
+		$$("#content").parent().parent().hide();
+		editor.on('preview', function () {
+			$$('#html').val(editor.getElement('previewer').body.innerHTML);
+		});
+		$$("input:radio[name=_cover]").click(function() {
+		    $$("#cover").val($$(this).val());
+		});
+	});
+</script>

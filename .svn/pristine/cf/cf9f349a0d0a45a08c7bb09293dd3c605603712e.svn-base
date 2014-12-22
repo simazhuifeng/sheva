@@ -1,0 +1,72 @@
+$def with (page)  
+<!DOCTYPE html>
+<!--[if lt IE 9]> <html class="no-js lt_ie9"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt_ie10 ie9"> <![endif]-->
+<!--[if gt IE 9]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <!-- Meta -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="ClearType" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>  
+	<link type="text/css" rel="stylesheet" href="http://cardinalcss.com/css/main.css" media="screen">
+    <script type="text/javascript" src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.min.js"></script>
+
+        <!-- Modernizr -->
+        <script src="http://cardinalcss.com/js/vendor/modernizr-2.7.1.min.js"></script>
+    <body>  
+     <div id="top" class="page" role="document">
+            <header class="page-header" role="banner">
+                <a href="#main-nav" class="nav-jump nav-link">Menu</a>
+
+                <div class="header-container cf">
+                    <h1 class="header-title">Cardinal</h1>
+                    <h2 class="header-tagline">Build more with less.</h2>
+
+                    <nav class="header-actions">
+                        <a href="https://github.com/cbracco/cardinal/archive/master.zip" title="Download from Github" id="header-download" class="version header-button button button-primary">Download</a>
+
+                        <a href="https://github.com/cbracco/cardinal" title="View & contribute on Github" id="header-view" class="header-button button button-secondary">View on GitHub</a>
+
+                        <div>
+                            <a href="https://www.pivotaltracker.com/s/projects/803361" id="header-pivotal" class="header-link">Pivotal Tracker</a>
+                            <span class="divider">&bull;</span>
+                            <a href="https://github.com/cbracco/cardinal/blob/master/CHANGELOG.md" id="header-changelog" class="header-link">Changelog</a>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+
+            <main class="page-content" role="main">
+                <div class="wrapper">
+                    <section id="typography" class="content-block">
+        $:page  
+                    </section>
+                </div>
+            </main>
+        </div>
+         <nav id="main-nav" class="nav" role="navigation">
+            <a href="#top" class="nav-heading"><span class="logo"></span></a>
+            <a href="#top" class="nav-jump nav-link">Back to top</a>
+
+            <div class="nav-container">
+                <ul class="nav-menu cf">
+                    <li><a href="#get-started" class="nav-link">Get started</a></li>
+                    <li><a href="#base" class="nav-link">Base</a></li>
+                    <li><a href="#typography" class="nav-link">Typography</a></li>
+                    <li><a href="#layout" class="nav-link">Layout</a></li>
+                    <li><a href="#embedded-content" class="nav-link">Embedded</a></li>
+                    <li><a href="#syntax" class="nav-link">Syntax</a></li>
+                    <li><a href="#tables" class="nav-link">Tables</a></li>
+                    <li><a href="#forms" class="nav-link">Forms</a></li>
+                    <li><a href="#buttons" class="nav-link">Buttons</a></li>
+                    <li><a href="#misc" class="nav-link">Miscellaneous</a></li>
+                    <li><a href="#known-issues" class="nav-link">Issues</a></li>
+                    <li><a href="#browser-support" class="nav-link">Browsers</a></li>
+                </ul>
+            </div>
+        </nav>
+    </body>  
+</html>  
